@@ -1,0 +1,4 @@
+.env
+requests.rest
+node_modules/
+react-blogwebapp-firebase-admin.json
