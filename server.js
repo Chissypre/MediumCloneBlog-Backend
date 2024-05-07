@@ -8,7 +8,7 @@ import { nanoid } from "nanoid"
 import jwt from 'jsonwebtoken'
 import cors from 'cors'
 import admin from 'firebase-admin'
-import serviceAccountKey from "./react-blogwebapp-firebase-adminsdk-2b5tm-d93c604fce.json" assert { type: "json" };
+import serviceAccountKey from "./react-blogwebapp-firebase-admin.json" assert { type: "json" };
 import { getAuth } from "firebase-admin/auth"
 import { cloudinary } from "./Utils/Cloudinary.js"
 import Notification from "./Schema/Notification.js"
